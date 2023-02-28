@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Hello-Boba Messenger</title>
+      <title>Chatter Box</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <link rel="icon" href="/favicon.ico" />
     </>
