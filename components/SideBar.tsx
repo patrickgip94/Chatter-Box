@@ -36,7 +36,7 @@ function SideBar() {
                 <p>Loading Chats...</p>
               </div>
             )}
-            
+
             {/* Map through the Chat rows */}
             {chats?.docs.map((chat) => (
               <ChatRow key={chat.id} id={chat.id} />
@@ -53,6 +53,9 @@ function SideBar() {
           className="h-12 w-12 rounded-full cursor-pointer mx-auto mb-2 hover:opacity-50"
         />
       )}
+      <div className="cursor-pointer" onClick={() => signOut()}>
+        <p className="text-center text-white">Sign Out</p>
+      </div>
     </div>
   );
 }
