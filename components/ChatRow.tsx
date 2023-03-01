@@ -38,7 +38,7 @@ function ChatRow({ id }: Props) {
   return (
     <Link
       href={`/chat/${id}`}
-      className={`chatRow justify-center mb-2 ${active && "bg-gray-500"}`}
+      className={`chatRow justify-center ${active && "bg-gray-500"}`}
     >
       <ChatBubbleLeftIcon className="h-5 w-5" />
       <p className="flex-1 hidden md:inline-flex truncate">
