@@ -9,8 +9,7 @@ function SideBar() {
   return (
     <div className="p-2 flex flex-col h-screen">
       <div className="flex-1">
-        <div className="">
-          {/* NEW CHAT GOES HERE */}
+        <div>
           <NewChat />
 
           <div>{/* Model Selection */}</div>
@@ -18,7 +17,7 @@ function SideBar() {
           {/* Map through the Chat rows */}
         </div>
       </div>
-      
+
       {session && (
         <img
           onClick={() => signOut()}
