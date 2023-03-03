@@ -1,27 +1,35 @@
-# Next.js + Tailwind CSS Example
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# Chatter Box
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+<a href="https://chatter-box-mu.vercel.app/">![ChatGPT Clone](https://i.imgur.com/IITzsd4.png)</a>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+Chatter Box is a ChatGPT clone that was developed by OpenAI and launched in November 2022. It is built on top of OpenAI's GPT-3 family of large language models and has been fine-tuned (an approach to transfer learning) using both supervised and reinforcement learning techniques.
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Tech Stack
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+- [Next.js 13](https://nextjs.org)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Firebase](https://console.firebase.google.com/)
+- [NextAuth.js](https://next-auth.js.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vercel](https://vercel.com)
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+# Live site
+
+
+
+• **[Chatter Box](https://chatter-box-mu.vercel.app/)** is a responsive web app.
+
+
+## Resource
+
+
+- #### [Let’s build ChatGPT Messenger 2.0 with REACT! (Next.js 13, Firebase, Tailwind CSS, TypeScript)](https://www.youtube.com/watch?v=V6Hq_EX2LLM) by [Sonny Sangha](https://www.youtube.com/@SonnySangha)
+
+- #### [Build and Deploy Your Own ChatGPT AI App in JavaScript | OpenAI, Machine Learning](https://www.youtube.com/watch?v=2FeymQoKvrk) by [JavaScript Mastery ](https://www.youtube.com/@javascriptmastery)
+
+<br>
