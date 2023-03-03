@@ -6,7 +6,7 @@ function Login() {
   return (
     <div className="bg-[#11A37F] h-screen flex flex-col items-center justify-center text-center">
       <Image
-        src="https://i.imgur.com/7CFeicY.png"
+        src="https://i.imgur.com/b5c77Au.png"
         width={300}
         height={300}
         alt="logo"
